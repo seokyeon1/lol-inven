@@ -1,0 +1,77 @@
+html, body {
+    margin:0;
+    padding: 0;
+}
+
+h1, p{
+    margin: 0;
+}
+
+a{
+    color: inherit;
+    text-decoration: none;
+}
+
+#main{
+    background: url(https://w.namu.la/s/aa360823b98feb18f032f9be81b922caab722693c65985413f2491eec87a59f699072181c9ed56992ac2efb767f1e2a1fbee9ac33547111044c3448368baa8b4af8a57ce1baef68129bce4933240ec7c0c216ce4e83f2a25eac46e7b6a5fb7d9896716053b5207e09f0e1fbbec9bb333) no-repeat;
+    background-size: cover;
+    background-position: top right;
+    width: 100vw;
+    height: 100vh;
+    font-family: 'Questrial', sans-serif;
+}
+
+#contents{
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    width: 100%;
+    color: white;
+    text-align: center;
+}
+
+#contents h1{
+    font-family: 'Dancing Script', cursive;
+    font-size: 70px;
+    margin-bottom: 16px;
+}
+
+#contents p{
+    font-size: 23px;
+    margin-bottom: 16px;
+}
+
+#contents a{
+    display: inline-block;
+    border: 2px solid white;
+    border-radius: 20px;
+    padding: 10px 20px;
+    font-size: 17px;
+    font-weight: bold;
+}
+
+#contents a:hover{
+    background-color: lightgreen;
+}
+
+@media(max-width:769px){
+    #contents h1{
+        font-size: 50px;
+    }
+    
+    #contents p{
+        font-size: 20px;
+    }
+
+    #contents a{
+        font-size: 14px;
+    }
+}
+
+#contents h2{
+    font-size: 20px;
+}
+
+#contents h3{
+    font-size: 10px;
+}
